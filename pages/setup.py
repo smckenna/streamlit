@@ -11,7 +11,7 @@ def app():
 
         scenario_id = st.text_input('Scenario ID', 'Risk Scenario #X')
         scenario_description = st.text_input('Scenario Description', '')
-        asset = st.text_input('Asset', '')
+        asset = st.text_input('Asset Impact(s)', '')
         value_chain_impacts = st.text_input('Value Chain Impacts', '')
         assessment_date = st.date_input("Assessment Date",  datetime.date(2022, 1, 1))
         notes = st.text_input('Notes', '')
