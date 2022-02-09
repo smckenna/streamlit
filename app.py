@@ -11,7 +11,7 @@ app = MultiPage()
 
 # Title of the main page
 st.set_page_config(layout="wide")
-st.title("Vista Equity Partners Risk Assessment Tool")
+st.title("Risk Assessment Tool")
 
 # Add all your applications (pages) here
 app.add_page("Setup", setup.app)
